@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#txtResultado {
+    width: 207px;
+    background-color: white;
+    height: 20px;
+    margin: 3px;
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+.btnUm {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.btnDois {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.btnTres {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.btnQuatro {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.btnCinco {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+
+}
+
+.btnSeis {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+
+}
+
+.btnSete {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.btnOito {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+
+}
+
+.btnNove {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+
+}
+
+.btnZero {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.btnSomar {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #FF7F00;
+    border: none;
+    color: white;
+}
+
+.btnMultiplicar {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #FF7F00;
+    border: none;
+    color: white;
+}
+
+
+.btnSubtrair {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #FF7F00;
+    border: none;
+    color: white;
+}
+
+
+.btnDividir {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #FF7F00;
+    border: none;
+    color: white;
+}
+
+.btnResultado {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #FF7F00;
+    border: none;
+    color: white;
+}
+
+.btnVirgula {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.btnLimpar {
+    width: 60px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #DCDCDC;
+    border: none;
+    color: #000000;
+}
+
+.btnVoltar {
+    width: 60px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #DCDCDC;
+    border: none;
+    color: #000000;
+}
