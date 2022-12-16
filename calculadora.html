@@ -9,39 +9,41 @@
 
 <body>
     <div class="calculadora">
-        <td><input type="txtResultado" id="txtResultado">
-            <table>
-                <tr>
-                    <td><button class="btnLimpar" onclick="escrever('Limpar')">C</button></td>
-                    <td><button class="btnVoltar" onclick="escrever('<')">+-</button></td>
-                    <td><button class="btnDividir" onclick="escrever('/')">/</button></td>
-                    <td><button class="btnMultiplicar" onclick="escrever('*')">*</button></td>
-                </tr>
-                <tr>
-                    <td><button class="btnSete" onclick="escrever('7')">7</button></td>
-                    <td><button class="btnOito" onclick="escrever('8')">8</button></td>
-                    <td><button class="btnNove" onclick="escrever('9')">9</button></td>
-                    <td><button class="btnSubtrair" onclick="escrever('-')">-</button></td>
+        <p id="txtResultado"></p>
+        <p class="resultado" id="resultado"></p>
+        <table>
+            <tr>
+                <td><button class="btnLimpar" onclick="limpar('')">C</button></td>
+                <td><button class="btnVoltar" onclick="escrever('<')">+-</button></td>
+                <td><button class="btnDividir" onclick="escrever('/')">/</button></td>
+                <td><button class="btnMultiplicar" onclick="escrever('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="btnSete" onclick="escrever('7')">7</button></td>
+                <td><button class="btnOito" onclick="escrever('8')">8</button></td>
+                <td><button class="btnNove" onclick="escrever('9')">9</button></td>
+                <td><button class="btnSubtrair" onclick="escrever('-')">-</button></td>
 
-                </tr>
-                <tr>
-                    <td><button class="btnQuatro" onclick="escrever('4')">4</button></td>
-                    <td><button class="btnCinco" onclick="escrever('5')">5</button></td>
-                    <td><button class="btnSeis" onclick="escrever('6')">6</button></td>
-                    <td><button class="btnSomar" onclick="escrever('+')">+</button></td>
-                </tr>
-                <tr>
-                    <td><button class="btnUm" onclick="escrever('1')">1</button></td>
-                    <td><button class="btnDois" onclick="escrever('2')">2</button></td>
-                    <td><button class="btnTres" onclick="escrever('3')">3</button></td>
-                    <td rowspan="2"><button class="btnResultado" style="height: 106px;"
-                            onclick="escrever('=')">=</button></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><button class="btnZero" style="width: 106px;" onclick="escrever('0')">0</button>
-                    <td><button class="btnVirgula" onclick="escrever('.')">.</button></td>
-                </tr>
-            </table>
+            </tr>
+            <tr>
+                <td><button class="btnQuatro" onclick="escrever('4')">4</button></td>
+                <td><button class="btnCinco" onclick="escrever('5')">5</button></td>
+                <td><button class="btnSeis" onclick="escrever('6')">6</button></td>
+                <td><button class="btnSomar" onclick="escrever('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="btnUm" onclick="escrever('1')">1</button></td>
+                <td><button class="btnDois" onclick="escrever('2')">2</button></td>
+                <td><button class="btnTres" onclick="escrever('3')">3</button></td>
+                <td rowspan="2"><button td id="calcular" onclick="calcular('')" class="btnResultado"
+                        style="height: 106px;">=</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="btnZero" style="width: 106px;" onclick="escrever('0')">0</button>
+                <td><button class="btnVirgula" onclick="escrever('.')">.</button></td>
+            </tr>
+        </table>
         </td>
     </div>
 

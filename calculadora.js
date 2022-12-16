@@ -1,10 +1,11 @@
 let operando1 = 0.0;
 let operando2 = 0.0;
 let operador = null;
+let saida = document.getElementById('resultado');
 
 let iptResultado = document.getElementById('txtResultado');
 
-//botões numéricos
+
 
 let btnUm = document.getElementById('btnUm')
 let btnDois = document.getElementById('btnDois')
@@ -17,14 +18,13 @@ let btnOito = document.getElementById('btnOito')
 let btnNove = document.getElementById('btnNove')
 let btnZero = document.getElementById('btnZero')
 
-//teclas adicionais do teclado
 
 let btnLimpar = document.getElementById('btnLimpar')
 let btnResultado = document.getElementById('btnResultado')
 let btnApagar = document.getElementById("btnApagar");
 let btnVirgula = document.getElementById("btnVirgula");
 
-//teclas dos operadores
+
 
 let btnSomar = document.getElementById('btnSomar')
 let btnMultiplicar = document.getElementById('btnMultiplicar')
@@ -32,6 +32,11 @@ let btnSubstrair = document.getElementById('btnSubstrair')
 let btnDividir = document.getElementById('btnDividir')
 
 
+function escrever(num) {
+
+    var numero = document.getElementById('txtResultado').innerHTML;
+    document.getElementById('txtResultado').innerHTML = numero + num;
+}
 for (var i = 0; i < iptResultado.length; i++) {
     iptResultado[i].addEventListener("click", Valor);
 }
@@ -40,41 +45,41 @@ function addNumero(numero) {
     iptResultado.value += numero;
 }
 
-function limparResultado() {
-    iptResultado.value = '';
-}
+function limpar() {
 
+    document.getElementById('txtResultado').innerHTML = "";
+}
 
 
 btnUm.addEventListener('click', function clickUm() {
     addNumero(1);
 });
 btnDois.addEventListener('click', function clickDois() {
-    addNumero(1);
+    addNumero(2);
 });
 btnTres.addEventListener('click', function clickTres() {
-    addNumero(1);
+    addNumero(3);
 });
 btnQuatro.addEventListener('click', function clickQuatro() {
-    addNumero(1);
+    addNumero(4);
 });
 btnCinco.addEventListener('click', function clickCinco() {
-    addNumero(1);
+    addNumero(5);
 });
 btnSeis.addEventListener('click', function clickSeis() {
-    addNumero(1);
+    addNumero(6);
 });
 btnSete.addEventListener('click', function clickSete() {
-    addNumero(1);
+    addNumero(7);
 });
 btnOito.addEventListener('click', function clickOito() {
-    addNumero(1);
+    addNumero(8);
 });
 btnNove.addEventListener('click', function clickNove() {
-    addNumero(1);
+    addNumero(9);
 });
 btnZero.addEventListener('click', function clickZero() {
-    addNumero(1);
+    addNumero(0);
 });
 
 
@@ -149,5 +154,13 @@ function verificarOperador(valor) {
 
         default:
             return false;
+    }
+}
+
+function calcular() {
+
+    var resultado = document.getElementById('txtResultado').innerHTML;
+    if (txtResultado) {
+        document.getElementById('txtResultado').innerHTML = eval(resultado);
     }
 }
