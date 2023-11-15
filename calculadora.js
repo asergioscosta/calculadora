@@ -164,3 +164,14 @@ function calcular() {
         document.getElementById('txtResultado').innerHTML = eval(resultado);
     }
 }
+
+function escrever(valor) {
+    var resultado = document.getElementById('txtResultado');
+    var expressao = resultado.innerText;
+
+    if (valor === '<') {
+        resultado.innerText = expressao.slice(0, -1);
+    } else {
+        resultado.innerText += valor;
+    }
+}
