@@ -53,7 +53,7 @@ Este projeto implementa uma calculadora simples utilizando `HTML`, `CSS` e `Java
 
 ## Técnicas e Tecnologias Utilizadas
 
-- **Linguagem Utilizada:**  ``HTML``, ``CSS`` e ``Javascript``
+- **Linguagem Utilizada:**  ``HTML``, ``CSS`` e ``JavaScript``
 - **Ambiente de Desenvolvimento:** ``Visual Studio Code``
 - **Ferramentas de Controle de Versão:** ``GitHub``
 
