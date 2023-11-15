@@ -48,20 +48,8 @@ Este projeto implementa uma calculadora simples utilizando `HTML`, `CSS` e `Java
 1. **Operações Básicas:**
    - Realizar operações de soma, subtração, multiplicação e divisão com dois operandos.
 
-2. **Interface Amigável:**
+2. **Interface:**
    - Projetar uma interface com botões numéricos e de operação.
-
-3. **Funcionalidade de Limpar:**
-   - Incluir um botão "C" para limpar a entrada atual, permitindo a correção de entradas incorretas.
-
-4. **Funcionalidade de Voltar:**
-   - Inserir um botão "<" para apagar o último caractere inserido, facilitando a correção de entradas.
-
-5. **Exibição do Resultado:**
-   - Exibir de maneira clara e legível o resultado das operações realizadas.
-
-6. **Suporte a Operações Simples:**
-   - Permitir operações simples, como `1 + 1`, `5 - 3`, `10 / 2`, etc.
 
 ## Técnicas e Tecnologias Utilizadas
 
