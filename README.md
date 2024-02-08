@@ -1,80 +1,81 @@
-# Calculadora
+# Calculator
 
-### Índice
+### Index
 
-- [Descrição do Projeto](#descrição-do-projeto)
+- [Project Description](#project-description)
+- [Requirements](#requirements)
+- [Features](#features)
+- [Techniques and Technologies Used](#techniques-and-technologies-used)
+- [Access to the Project](#access-to-the-project)
+- [Open and Run the Project](#open-and-run-the-project)
+- [Final Considerations](#final-considerations)
+- [Developers](#developers)
 
-- [Requisitos](#requisitos)
+## Project Description
 
-- [Funcionalidades](#funcionalidades)
+This project implements a simple calculator using `HTML`, `CSS`, and `Javascript`. The calculator offers basic functionalities such as addition, subtraction, multiplication, and division.
 
-- [Técnicas e Tecnologias Utilizadas](#técnicas-e-tecnologias-utilizadas)
+## Requirements
 
-- [Acesso ao Projeto](#acesso-ao-projeto)
+1. **Numeric Buttons:**
+   - The interface should include numeric buttons from 0 to 9 for operand input.
 
-- [Abrir e Executar o Projeto](#abrir-e-executar-o-projeto)
+2. **Operation Buttons:**
+   - The interface should include buttons for addition (+), subtraction (-), multiplication (*), and division (/).
 
-- [Considerações Finais](#considerações-finais)
+3. **Result Display:**
+   - The calculator should display the result of the operations.
 
-- [Desenvolvedores](#desenvolvedores)
+4. **Clear Button:**
+   - The interface should include a "C" button to clear and reset the calculation process.
 
+5. **Back Button:**
+   - The interface should include a "<" button to delete the last inserted character.
 
-## Descrição do Projeto
+6. **Basic Operations:**
+   - The calculator should support simple two-operand operations, such as `1 + 1`, `5 - 3`, `10 / 2`, etc.
 
-Este projeto implementa uma calculadora simples utilizando `HTML`, `CSS` e `Javascript`. A calculadora oferece as funcionalidades básicas de soma, subtração, multiplicação e divisão.
+## Features
 
-## Requisitos
-
-1. **Botões Numéricos:**
-   - A interface deve incluir botões numéricos de 0 a 9 para entrada de operandos.
-
-2. **Botões de Operação:**
-   - A interface deve incluir botões para as operações de soma (+), subtração (-), multiplicação (*) e divisão (/) devem ser fornecidos.
-
-3. **Exibição do Resultado:**
-   - A calculadora deve exibir o resultado das operações.
-
-4. **Botão de Limpar:**
-   - A interface deve incluir um botão "C" para limpar e reiniciar o processo de cálculo.
-
-5. **Botão de Voltar:**
-   - A interface deve incluir um botão "<" para apagar o último caractere inserido.
-
-6. **Operações Básicas:**
-   - A calculadora deve suportar operações simples de dois operandos, como `1 + 1`, `5 - 3`, `10 / 2`, etc.
-
-## Funcionalidades
-
-1. **Operações Básicas:**
-   - Realizar operações de soma, subtração, multiplicação e divisão com dois operandos.
+1. **Basic Operations:**
+   - Perform addition, subtraction, multiplication, and division operations with two operands.
 
 2. **Interface:**
-   - Projetar uma interface com botões numéricos e de operação.
+   - Design an interface with numeric and operation buttons.
 
-## Técnicas e Tecnologias Utilizadas
+## Techniques and Technologies Used
 
-- **Linguagem Utilizada:**  ``HTML``, ``CSS`` e ``JavaScript``
-- **Ambiente de Desenvolvimento:** ``Visual Studio Code``
-- **Ferramentas de Controle de Versão:** ``GitHub``
+- **Language Used:**  ``HTML``, ``CSS``, and ``JavaScript``
+- **Development Environment:** ``Visual Studio Code``
+- **Version Control Tools:** ``GitHub``
 
-## Acesso ao Projeto
+## Access to the Project
 
-Você pode acessar os arquivos do projeto [clicando aqui](https://github.com/asergioscosta/Calculadora) ou [baixá-lo como um arquivo zip](https://github.com/asergioscosta/Calculadora/archive/refs/heads/main.zip).
+You can access the project files [here](https://github.com/asergioscosta/Calculadora) or [download it as a zip file](https://github.com/asergioscosta/Calculadora/archive/refs/heads/main.zip).
 
-## Abrir e Executar o Projeto
+## Open and Run the Project
 
-1. Escolha uma pasta para criar o projeto. Ex.: ``d:\nome_pasta``
-2. Crie um repositório no GitHub.
-3. Clone o repositório usando o comando ``git clone <URL_do_repositorio>``.
-4. Abra o Visual Studio Code;
-5. No menu principal, selecione "File" -> "Open Folder" e navegue até o diretório onde você baixou o projeto;
-6. Selecione a pasta do projeto e clique em "Open";
-7. Crie as aplicações do projeto e os códigos.
+1. Choose or create a folder on your computer where you want to store the project. For example: ``d:\folder_name``.
+2. Create a repository on GitHub or use an existing one.
+3. Clone the repository to your local machine using the command ``git clone <URL_of_the_repository>`` in your terminal or Git Bash.
+4. Make sure you have Visual Studio Code installed on your computer. If not, you can download it [here](https://code.visualstudio.com/).
+5. Open Visual Studio Code.
+6. In the main menu, select "File" -> "Open Folder" and navigate to the directory where you cloned the project.
+7. Select the project folder and click "Open".
+8. Now you have access to the project files in your development environment.
+9. To run the project, open the ``calculator.html`` file in your preferred web browser.
+10. The calculator will be displayed, and you can perform the desired operations.
+11. If you want to make modifications to the project, open the HTML, CSS, and JavaScript files in Visual Studio Code and make the necessary changes.
+12. After making the desired changes, save the files.
+13. To view the changes, refresh the page in the browser.
+14. Once you have finished your modifications, you can upload the modified code to GitHub following the Git instructions.
 
-## Considerações Finais
+With these steps, you will be able to open, run, and modify the project in your local development environment.
 
-Este projeto foi desenvolvido como parte de um exercício para praticar habilidades em HTML, CSS e Javascript. Sinta-se à vontade para contribuir ou fornecer feedback!
+## Final Considerations
 
-## Desenvolvedores
+This project was developed as part of an exercise to practice skills in HTML, CSS, and JavaScript. Feel free to contribute or provide feedback!
+
+## Developers
 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/102989796?v=4" width=115>](https://github.com/asergioscosta)
